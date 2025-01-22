@@ -215,3 +215,111 @@ header {
     background-color: rgb(255, 255, 255);
     border-radius: 16px;
 }
+#over-1 {
+    position: relative;
+    height: 3vw;
+    width: 10vw;
+    bottom: 5%;
+    left: 5%;
+    border-radius: 20px;
+    background: rgb(60, 216, 232);
+    text-align: center;
+    align-content: center;
+    font-size: 25px;
+    font-weight: 800;
+    color: white;
+}
+.over-l {
+    position: relative;
+    height: 3vw;
+    width: 10vw;
+    bottom: 10%;
+    left: 5%;
+    border-radius: 20px;
+    text-align: center;
+    align-content: center;
+}
+.over-l h6 {
+    font-size: 15.34px;
+    font-weight: 800;
+    color: white;
+}
+.story-img img {
+    border-radius: 16px 16px 0 0;
+    width: 100%;
+}
+
+.box-b {
+    padding: 30px;
+}
+.box-b h4 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+.Ex-mark {
+    background: rgb(0, 225, 255);
+}
+.card {
+    width: auto;
+    background: rgb(255, 255, 255);
+    border-radius: 16px;
+}
+.card-info {
+    text-align: start;
+    padding: 20px;
+}
+.card-info h5 {
+    font-size: 15.34px;
+    font-weight: 700;
+    padding-bottom: 3vh;
+    padding-right: 0;
+}
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+.view-all {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10vh;
+}
+.view-all button {
+    background: black;
+}
+footer {
+    background: rgba(1, 173, 253, 0.719);
+    color: white;
+}
+.footer-section {
+    max-width: 1280px;
+    margin: 0 auto 0 auto;
+    padding: 5vw;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-align {
+    max-width: 450px;
+}
+.footer-sec-a {
+    display: flex;
+    align-items: start;
+    gap: 1.5vw;
+    max-width: 150px;
+    margin-bottom: 2vh;
+}
+.footer-header h2 {
+    margin-top: 12px;
+    font-size: 42.14px;
+    font-weight: 700;
+}
+.footer-img img {
+    width: 120px;
+}
+.footer-nav h4 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 5vh;
+}
