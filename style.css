@@ -323,3 +323,132 @@ footer {
     font-weight: 700;
     margin-bottom: 5vh;
 }
+.footer-nav ul {
+    list-style: none;
+}
+.footer-nav ul li {
+    margin-bottom: 3vh;
+}
+.footer-nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+}
+.icons h4 {
+    font-size: 26px;
+    font-weight: 700;
+}
+.last-icons {
+    margin-top: 2vh;
+    display: flex;
+    gap: 1vw;
+}
+button:hover {
+    background: rgb(1, 172, 253);
+    transform: scale(150%);
+    transition: all 1s;
+}
+@media screen and (max-width: 1080px) {
+    header {
+        margin-top: 0;
+    }
+    .font-m {
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+    nav {
+        border: 2px solid orange;
+        border-radius: 5px;
+        padding: 1vw;
+    }
+    .margin {
+        max-width: 430px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .b-nav {
+        display: block;
+        border-radius: 10px;
+        margin-bottom: 4px;
+        height: 5px;
+        width: 30px;
+        background: black;
+    }
+    .a-nav {
+        display: block;
+        margin-right: 3vw;
+    }
+    .masc {
+        display: flex;
+        justify-content: center;
+    }
+    .masc img {
+        width: 100%;
+    }
+    .hide {
+        display: none;
+    }
+    .main-a-header h2 {
+        margin-bottom: 5vh;
+        text-align: center;
+        font-size: 40px;
+        font-weight: 700;
+    }
+    .header-section {
+        display: grid;
+        grid-template-columns: auto;
+        margin-top: 2.5vh;
+    }
+    .sec-a-div-a {
+        text-align: center;
+    }
+    .sec-a-div-a h1 {
+        margin-top: 3vh;
+        font-size: 2.5em;
+    }
+    .sec-a-div-a p {
+        margin-top: 5vh;
+        margin-bottom: 5vh;
+    }
+    .section-a-div-b {
+        display: none;
+    }
+    .container-a {
+        display: grid;
+        grid-column: auto;
+        gap: 5vh;
+        justify-content: center;
+    }
+    .arrows {
+        display: none;
+    }
+    .layer-01 {
+        display: none;
+    }
+    .container-b {
+        display: flex;
+        justify-content: center;
+    }
+    .card-container {
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+    .over-l {
+        height: 4.5vh;
+        width: 28vw;
+    }
+    .over-l h6 {
+        font-size: 12px;
+        font-weight: 600;
+    }
+    .footer-section {
+        display: grid;
+        grid-column: auto;
+        gap: 10vh;
+    }
+    .footer-sec-a {
+        display: grid;
+        grid-column: auto;
+    }
+}
